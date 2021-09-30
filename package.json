@@ -1,6 +1,6 @@
 {
   "name": "@editorjs/alert-uk",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "to explore editorjs with yarn",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -20,7 +20,6 @@
   },
   "author": "Upendra Kumar",
   "license": "MIT",
-  "private": false,
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.15.5",
