@@ -14,6 +14,7 @@
   * Import Tool's icon
   */
  import ToolboxIcon from '../assets/icon.svg';
+// const ToolboxIcon =require('../assets/icon.svg');
  
  /**
   * @class Alert
@@ -40,7 +41,7 @@
     */
    static get toolbox() {
      return {
-       icon: ToolboxIcon,
+       icon:ToolboxIcon,
        title: 'Alert',
      };
    }

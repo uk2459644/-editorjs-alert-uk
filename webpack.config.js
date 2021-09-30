@@ -30,8 +30,8 @@ module.exports = (env, argv) => {
           },
           {
             test: /\.svg$/,
-            // loader: 'svg-inline-loader?removeSVGTagAttrs=false',
-            type: 'asset/resource',
+            loader: 'raw-loader'
+           
           },
         ],
       },

@@ -1,6 +1,6 @@
 {
-  "name": "@editorjs/alert-uk",
-  "version": "1.0.3",
+  "name": "editorjs-alert-uk",
+  "version": "1.0.7",
   "description": "to explore editorjs with yarn",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -18,6 +18,10 @@
       "prettier --write"
     ]
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Upendra Kumar",
   "license": "MIT",
   "dependencies": {},
@@ -29,8 +33,8 @@
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
+    "raw-loader": "^4.0.2",
     "style-loader": "^3.3.0",
-    "svg-inline-loader": "^0.8.2",
     "webpack": "^5.55.0",
     "webpack-cli": "^4.8.0"
   }

@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Editor.js Alert Demo</title>
+    <title>Editor.js Alert Devlopment</title>
     <style>
       body {
         font-family: 'Noto Sans JP', Helvetica Neue, Arial, Noto Sans,
           sans-serif;
-        width: 620px;
+        width: 100%;
+        height: 100vh;
         margin: 20px auto 0;
         padding: 20px;
       }
@@ -51,7 +52,7 @@
         }
       }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@2.19"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
     <script src="../dist/development.bundle.js"></script>
     <link
       rel="stylesheet"
@@ -97,46 +98,6 @@
     <script>
       const editor = new EditorJS({
         holder: 'editorjs',
-        data: {
-          blocks: [
-            {
-              type: 'paragraph',
-              data: {
-                text: '<h1>Editor.js Alert Demo</h1>',
-              },
-            },
-            {
-              type: 'alert',
-              data: {
-                type: 'primary',
-                message: 'Something happened that you should know about.',
-              },
-            },
-            {
-              type: 'alert',
-              data: {
-                type: 'info',
-                message: 'We did something <strong>new</strong>...',
-              },
-            },
-            {
-              type: 'alert',
-              data: {
-                type: 'warning',
-                message:
-                  '<strong>Be Warned</strong><br/>Something not ideal might be happening.',
-              },
-            },
-            {
-              type: 'alert',
-              data: {
-                type: 'danger',
-                message:
-                  '<strong>Holy smokes!</strong><br/>Something seriously <em>bad</em> happened.',
-              },
-            },
-          ],
-        },
         tools: {
           alert: {
             class: Alert,
@@ -144,6 +105,8 @@
             inlineToolbar: true,
           },
         },
+       
+       
       });
 
       const saveButton = document.getElementById('save-button');
