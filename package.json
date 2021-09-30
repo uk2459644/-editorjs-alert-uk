@@ -1,8 +1,8 @@
 {
-  "name": "my-yarn-pack",
+  "name": "@editorjs/alert-uk",
   "version": "1.0.0",
   "description": "to explore editorjs with yarn",
-  "main": "index.js",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development --watch",
