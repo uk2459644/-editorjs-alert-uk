@@ -30,4 +30,15 @@ var editorjs=new EditorJS({
      ...
      });
  ```
+ ## Output data
  
+ ```javascript
+ {
+      "id": "ksq0dUdIh6",
+      "data": {
+        "type": "primary",
+        "message": "And many more"
+      },
+      "type": "alert"
+    }
+ ```
